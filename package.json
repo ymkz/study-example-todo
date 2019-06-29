@@ -5,6 +5,9 @@
   "name": "study-example-todo",
   "description": "study-example-todo-description",
   "scripts": {
+    "install:backend": "npm install --prefix backend",
+    "install:frontend": "npm install --prefix frontend",
+    "install": "run-p install:*",
     "start:backend": "npm run start --prefix backend",
     "start:frontend": "npm run start --prefix frontend",
     "start": "run-p start:*"
