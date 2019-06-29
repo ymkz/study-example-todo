@@ -2,9 +2,8 @@
   "private": true,
   "license": "MIT",
   "version": "0.0.0",
-  "name": "example-backend",
-  "description": "example-backend-description",
-  "main": "index.js",
+  "name": "study-example-todo-backend",
+  "description": "study-example-todo-backend-description",
   "scripts": {
     "start": "node-dev src/index.js"
   },
