@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.app-bar {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
+  padding: 0 16px;
+  justify-content: space-between;
+}
+
+.todos-container {
+  padding: 16px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+}
+
+.todo-text {
+  flex-grow: 1;
+}
